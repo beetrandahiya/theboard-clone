@@ -34,6 +34,20 @@ export default function Booking(){
                     </table>
                     </div>
                 </div>
+                <div className="check-in-out">
+                    <div>
+                        <h3>Inclusion</h3>
+                        <p>Inclusion Name</p>
+                    </div>
+                    <div>
+                        <h3>Inclusion Selling Price </h3>
+                        <p> 7000 </p>
+                    </div>
+                    <div >
+                        <h3>Net to Vendor</h3>
+                        <p>4947</p>
+                    </div>
+                </div>
             </div>
         </div>
     );

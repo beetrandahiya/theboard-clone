@@ -54,8 +54,9 @@ code {
 h1{
   font-size: 2em;
   text-align: left;
+  margin: 0;
   width: 80%;
-  color:#7f57f1;
+  color:#f36d24;
 }
 .basic-info-content {
   display: flex;
@@ -66,13 +67,14 @@ h1{
 }
 
 .basic-info-client{
-  background-color: #faf3fa;
+  background-color: #fcfaf8;
+  border: 1px solid #dee2e6;
   border-radius: 8px;
   width:100%;
   margin:1em 2em;
   padding: 1em;
 }
-h2{
+.basic-info-client h2{
   font-size: 1.5em;
   margin:0 1em;
 }
@@ -84,7 +86,8 @@ h2{
 
 
 .basic-info-hotel{
-  background-color: #faf3fa;
+  background-color: #fcfaf8;
+  border: 1px solid #dee2e6;
   border-radius: 8px;
   width:100%;
   margin:1em 2em;
@@ -109,6 +112,8 @@ h2{
   text-align: left;
 }
 .check-in-out{
+  background-color: #fcfaf8;
+  border: 1px solid #dee2e6;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -116,15 +121,16 @@ h2{
   margin: 0.5em 2em;
   border-radius: 8px;
   text-align: left;
-  background-color: #faf3fa;
 }
 .check-in-out div{
-  margin: 0.5em 2em;
+  margin: 0em 2em;
 }
 .check-in-out h3{
-  color:#7f57f1;
+  color:#f36d24;
 }
 .room{
+  background-color: #fcfaf8;
+  border: 1px solid #dee2e6;
   display: flex;
   justify-content: space-around;
   width: 100%;
@@ -132,7 +138,6 @@ h2{
   padding: 1em 0;
   border-radius: 8px;
   text-align: left;
-  background-color: #faf3fa;
   flex-direction: column;
 }
 .room div{
@@ -151,6 +156,38 @@ h2{
   margin:0em 2em;
 }
 .room table tr td:nth-child(2){
-  border-left: 2px solid #7f57f155;
+  border-left: 2px solid #f36d2455;
   padding-left: 1em;
+}
+
+/* payment info */
+.payment-content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  text-align: left;
+}
+
+.payment-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.transaction{
+  background-color: #fcfaf8;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  width:100%;
+  margin:1em 2em;
+  padding: 1em;
+}
+.transaction h2{
+  font-size: 1.5em;
+  margin:0 1em;
+}
+.transaction table{
+  width:100%;
+  padding: 1em;
 }

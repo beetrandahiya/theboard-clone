@@ -3,10 +3,8 @@ import './App.css';
 import Navbar from './navbar';
 import BasicInfo from './basic';
 import Booking from './booking';
-//import Payment from './payment';
-/*
-      <Payment />
-*/
+import Payment from './payment';
+
 
 function App() {
   return (
@@ -14,6 +12,7 @@ function App() {
       <Navbar />
       <BasicInfo />
       <Booking />
+      <Payment />
     </div>
   );
 }
