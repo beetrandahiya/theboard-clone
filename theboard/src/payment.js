@@ -3,7 +3,7 @@ export default function Payment(){
         <div className="payment segment">
             <h1>Payment Details</h1>
             <div className="payment-content">
-                <div className="basic-info-content">
+                <div className="transaction-content">
                     <div className="transaction">
                     <h2><span>Payment Breakup</span></h2>
                     <table>
@@ -26,15 +26,19 @@ export default function Payment(){
                     </div>
                 </div>
                 <div className="check-in-out">
-                <div>
-                    <h3>Towno Gross Amount</h3>
-                    <p> 6000 </p>
+                    <div>
+                        <h3>Towno Gross Amount</h3>
+                        <p> 6000 </p>
+                    </div>
+                    <div>
+                        <h3>Profit After Tax</h3>
+                        <p>5000</p>
+                    </div>
                 </div>
-                <div>
-                    <h3>Profit After Tax</h3>
-                    <p>5000</p>
+                <div className="book-btn">
+                         <button className="btn">Edit Booking</button>
+                        <button className="btn btn-fnl">Book Now</button>
                 </div>
-            </div>
             </div>
             
 
